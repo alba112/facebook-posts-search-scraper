@@ -1,0 +1,21 @@
+{
+  "facebook": {
+    "base_search_url": "https://www.facebook.com/search/posts?q={query}",
+    "max_posts": 100,
+    "scroll_pause": 2.0,
+    "max_scroll": 120
+  },
+  "browser": {
+    "headless": true,
+    "locale": "en-US",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+  },
+  "export": {
+    "default_format": "json",
+    "output_dir": "data"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/facebook_search_scraper.log"
+  }
+}
